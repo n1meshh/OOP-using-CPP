@@ -1,0 +1,47 @@
+#Inheritance
+
+Inheritance is one of the most important features of Object-Oriented Programming (OOP). It allows a class (called the derived or child class) to inherit properties and behaviors (data and functions) from another class (called the base or parent class).
+
+-----------------------------------------------------------------------------------------
+
+#Syntax:
+class Base {
+    // base class members
+};
+
+class Derived : access_specifier Base {
+    // derived class members
+};
+access_specifier can be public, private, or protected.
+
+-----------------------------------------------------------------------------------------
+
+Example:
+
+class Vehicle {
+public:
+    void startEngine() {
+        cout << "Engine started" << endl;
+    }
+};
+
+class Car : public Vehicle {
+public:
+    void playMusic() {
+        cout << "Playing music" << endl;
+    }
+};
+
+🔍 Explanation:
+	•	Car is a derived class.
+	•	It inherits the startEngine() function from Vehicle.
+	•	So, you can do:
+
+---------------------------------------------------------------------------------------
+
+Car c;
+c.startEngine();   // From Vehicle
+c.playMusic();     // From Car
+
+
+
