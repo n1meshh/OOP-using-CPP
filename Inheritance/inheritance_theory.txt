@@ -1,8 +1,16 @@
 #Inheritance
-
+-provides us the capability to re use the pre exsistng code. 
 Inheritance is one of the most important features of Object-Oriented Programming (OOP). It allows a class (called the derived or child class) to inherit properties and behaviors (data and functions) from another class (called the base or parent class).
 
 -----------------------------------------------------------------------------------------
+types of Inheritance
+1-Sigle Inheritance
+   The type of inheritance in which one class is being inherited by another class 
+2-Multiple Inheritance
+    in which more than one class is being inherited by another class
+3)multilevel Inheritance
+    in which one class inheritance other class and then the class is being inherited by another is called multilevel inheritance,
+
 
 #Syntax:
 class Base {

@@ -1,0 +1,19 @@
+Operator Overloading=> part of polymorphism
+
+-most imp feature of c++
+
+-using the concept of operator overloading , we can overload any built in operator i.e we can assign a new defination to an existing operator.
+
+for eg:
+ + => built in
+ cc = aa + bb (+)lai overloading garera use garna milxa
+
+ normally use garne operator haru lai yedi objects class snga use garne ho vane teslai ni operator overloading vaninxa
+
+ some operator which can not be overloaded are:
+ 1) scope resolution ::
+ 2)class member acces (.,*)
+ 3) size of operator
+ 4) conditional operator (?,:);
+
+ 

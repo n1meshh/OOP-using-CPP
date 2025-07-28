@@ -40,3 +40,5 @@ int main() {
     calcArea(s1, r1);
     return 0;
 }
+
+//template func , simple program ->
